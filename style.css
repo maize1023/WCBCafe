@@ -1,0 +1,100 @@
+@charset "UTF-8";
+
+/* 共通部分 */
+html {
+  font-size: 100%;
+}
+body {
+  line-height: 1.7;
+  color: black;
+}
+a {
+  text-decoration: none;
+}
+img {
+  max-width: 100%;
+}
+
+/* header */
+.page-header {
+  border: 1px solid red;
+  display: flex;
+  justify-content: space-between;
+}
+.wrapper {
+  border: 1px solid red;
+  max-width: 1100px;
+  padding: 0 4%;
+  margin: 0 auto;
+}
+.logo {
+  border: 1px solid red;
+  width: 210px;
+  margin-top: 14px;
+}
+.main-nav {
+  border: 1px solid red;
+  display: flex;
+  margin-top: 34px;
+  list-style: none;
+}
+.main-nav li {
+  border: 1px solid red;
+  margin-left: 36px;
+}
+
+/* home */
+.home-content {
+text-align: center;
+margin-top: 10%;
+}
+.home-content p {
+  font-size: 1.125rem;
+  margin: 10px 0 42px;
+}
+.page-title {
+  font-size: 5rem;
+  text-transform: uppercase;
+  font-weight: normal;
+}
+.button {
+  font-size: 1.375rem;
+  background: #0bd;
+  color: #fff;
+  border-radius: 5px;
+  padding: 18px 32px;
+}
+.button:hover {
+  background: #0090aa;
+}
+
+/* 大きな背景画像 */
+.big-bg {
+  background-size: cover;
+  background-position: center top;
+}
+#home {
+  /* background-image: url(images/main-bg.jpg); */
+  min-height: 100vh;
+  background-image: radial-gradient(#c9ffbf, #ffafbd);
+}
+
+/* NEWS */
+#news {
+  background-image: url(images/news-bg.jpg);
+  height: 270px;
+  margin-bottom: 40px;
+}
+#news .page-title {
+  text-align: center;
+}
+/* フッター */
+footer {
+  background: #432;
+  text-align: center;
+  padding: 26px 0;
+}
+footer p {
+  color: #fff;
+  font-size: 0.875rem;
+}
