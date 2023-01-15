@@ -216,8 +216,6 @@ aside p {
 
 
 
-
-
 /* モバイル版 */
 @media (max-width: 600px) {
   .page-title {
@@ -292,6 +290,12 @@ aside p {
   }
   .grid {
     display: grid;
-
+  }
+  .big-box {
+    grid-column: auto;
+    grid-row: auto;
+  }
+  .big-box img {
+    height: auto;
   }
 }
