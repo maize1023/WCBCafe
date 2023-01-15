@@ -74,12 +74,13 @@ margin-top: 10%;
   background-position: center top;
 }
 #home {
+
   /* background-image: url(images/main-bg.jpg); */
   min-height: 100vh;
   background-image: radial-gradient(#c9ffbf, #ffafbd);
 }
 
-/* NEWS */
+/* news.html */
 #news {
   background-image: url(images/news-bg.jpg);
   height: 270px;
@@ -88,7 +89,8 @@ margin-top: 10%;
 #news .page-title {
   text-align: center;
 }
-/* フッター */
+
+/* footer */
 footer {
   background: #432;
   text-align: center;
@@ -97,4 +99,18 @@ footer {
 footer p {
   color: #fff;
   font-size: 0.875rem;
+}
+
+/* news-contents内 */
+article {
+  width: 74%;
+}
+/* aside */
+aside {
+  width: 22%;
+}
+.news-contents {
+  display: flex;
+  justify-content: space-between;
+  margin-bottom: 50px;
 }
