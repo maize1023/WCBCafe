@@ -214,7 +214,10 @@ aside p {
   object-fit: cover;
 }
 
-
+/* contact.html */
+#contact {
+  background-image: url(images/contact-bg.jpg);
+}
 
 /* モバイル版 */
 @media (max-width: 600px) {
