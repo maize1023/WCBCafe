@@ -214,6 +214,68 @@ aside p {
   object-fit: cover;
 }
 
+/* contact.html */
+#contact {
+  background-image: url(images/contact-bg.jpg);
+  min-height: 100vh;
+}
+form div {
+    border: 1px solid red;
+    margin-bottom: 14px;
+}
+label {
+  border: 1px solid red;
+  font-size: 1.125rem;
+  display: block;
+  margin-bottom: 10px;
+}
+input[type="text"],
+input[type="email"],
+textarea {
+  background: rgba(255,255,255,.5);
+  border: 1px #fff solid;
+  border-radius: 5px;
+  padding: 10px;
+  font-size: 1rem;
+}
+input[type="text"],
+input[type="email"] {
+  width: 100%;
+  max-width: 240px;
+}
+textarea {
+  width: 100%;
+  max-width: 480px;
+  height: 6rem;
+}
+input[type="submit"] {
+  border: none;
+  cursor: pointer;
+  line-height: 1;
+}
+#location {
+  border: 1px solid red;
+  padding: 4% 0;
+}
+#location .wrapper {
+  display: flex;
+  border: 1px solid red;
+  justify-content: space-between;
+}
+.location-info {
+  width: 22%;
+}
+.location-info p {
+  padding: 12px 10px;
+}
+.location-map {
+  width: 74%;
+}
+iframe {
+  width: 100%;
+}
+
+
 
 
 /* モバイル版 */
@@ -298,4 +360,15 @@ aside p {
   .big-box img {
     height: auto;
   }
+
+
+  /* contact.html */
+  #contact .page-title {
+    margin-top: 40px;
+  }
+    input[type="text"],
+    input[type="email"],
+    textarea {
+      max-width: 100%;
+    }
 }
