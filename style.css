@@ -253,6 +253,28 @@ input[type="submit"] {
   cursor: pointer;
   line-height: 1;
 }
+#location {
+  border: 1px solid red;
+  padding: 4% 0;
+}
+#location .wrapper {
+  display: flex;
+  border: 1px solid red;
+  justify-content: space-between;
+}
+.location-info {
+  width: 22%;
+}
+.location-info p {
+  padding: 12px 10px;
+}
+.location-map {
+  width: 74%;
+}
+iframe {
+  width: 100%;
+}
+
 
 
 
